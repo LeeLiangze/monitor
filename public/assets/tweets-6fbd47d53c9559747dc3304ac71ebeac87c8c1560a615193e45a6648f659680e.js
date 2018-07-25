@@ -1,0 +1,1 @@
+(function(){$(function(){return $(".tweet-body").each(function(){return $(this).click(function(){return $(this).off("click"),twttr.widgets.createTweet(this.dataset.tweetId,this).then(function(e){return e.previousSibling.style.display="none"})})})})}).call(this);

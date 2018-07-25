@@ -1,0 +1,1 @@
+(function(){window.map_marker=function(t,n){var e,r;return null==n&&(n={}),r=new google.maps.LatLng(n.lat,n.lng),e=n.radius>0?new google.maps.Circle({map:t,strokeColor:"#FF0000",strokeOpacity:.8,strokeWeight:2,fillColor:"#FF0000",fillOpacity:.35,center:r,radius:n.radius}):new google.maps.Marker({map:t,position:r,title:"Recorded Location"})}}).call(this);
